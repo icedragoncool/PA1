@@ -9,6 +9,10 @@ int main(){
     string url;    // assigning url to string
     cout << "Enter url" << endl; // asking user to enter the url
     cin >> url;// reading the erl
+
+// add some comment for the file
+//change after pushing it in repositories
+
     
 
     size_t search = url.find_first_of(" : "); // using size_t and find_first_ofsize and count of string and its match
