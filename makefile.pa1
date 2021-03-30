@@ -1,0 +1,9 @@
+# this will compile the program
+CC=g++
+
+
+all: url.cpp ; $(CC) url.cpp -o url
+
+clean: ; rm url 
+
+
